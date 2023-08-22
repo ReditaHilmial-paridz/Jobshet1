@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T01:53:03.990Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.8" etag="kS4_Tt9PHEZMVj5vKNvI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T02:41:20.172Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NYaZHXoSCoZW0OTR2LoR" version="21.6.8" type="github">
   <diagram name="Page-1" id="_ae-SGc9Zz-kZvwTVjVR">
-    <mxGraphModel>
+    <mxGraphModel dx="2165" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PGw-TO23lzFobfT0UNu0-43" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="65" y="480" width="630" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="PGw-TO23lzFobfT0UNu0-3" value="random angka" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="505" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PGw-TO23lzFobfT0UNu0-7" value="Player 1&lt;br&gt;(komputer)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="525" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PGw-TO23lzFobfT0UNu0-9" value="player 2&lt;br&gt;(user)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="530" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PGw-TO23lzFobfT0UNu0-14" value="tebak angka" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="720" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGw-TO23lzFobfT0UNu0-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="PGw-TO23lzFobfT0UNu0-12" target="PGw-TO23lzFobfT0UNu0-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="830" as="sourcePoint" />
+            <mxPoint x="680" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGw-TO23lzFobfT0UNu0-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="PGw-TO23lzFobfT0UNu0-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="90" y="610" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGw-TO23lzFobfT0UNu0-12" value="tebak angka" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="690" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PGw-TO23lzFobfT0UNu0-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="PGw-TO23lzFobfT0UNu0-7" target="PGw-TO23lzFobfT0UNu0-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGw-TO23lzFobfT0UNu0-28" value="&lt;h1&gt;Game Tebak Angka&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="260" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
